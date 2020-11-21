@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style type="text/css">
+        body {
+            background-color: thistle;
+
+
+        }
+
+        img {
+            box-sizing: border-box;
+            size: 150px;
+        }
+
+
+
+        h1 {
+            color: gold;
+            position: absolute;
+            padding-left: 320px;
+
+        }
+
+        footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: whitesmoke;
+            color: red;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        /* Dropdown Button */
+        .dropbtn {
+            background-color: #3498DB;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Dropdown button on hover & focus */
+        .dropbtn::selection,
+        .dropbtn:focus {
+            background-color: #2980B9;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            float: right;
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        /* .dropdown-content a:hover {
+            background-color: #ddd
+        } */
+
+        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+        .show {
+            display: block;
+        }
+    </style>
+
+    <script src="https://kit.fontawesome.com/91bcb7cb4b.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Of Cards</title>
+</head>
+
+<body>
+
+    <h1><i class="fas fa-hospital-symbol"></i>House Of Cards</h1>
+
+
+
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Create</button>
+        <div id="myDropdown" class="dropdown-content">
+
+        </div>
+    </div>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Join</button>
+        <div id="myDropdown" class="dropdown-content">
+
+        </div>
+    </div>
+
+
+    <footer>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/"> <i class="fab fa-linkedin"></i></a>
+
+    </footer>
+    <img src="card.png" />
+
+
+
+
+</body>
+
+</html>
